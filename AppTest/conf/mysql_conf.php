@@ -5,19 +5,19 @@ class Conf_Mysql{
 
     public static $dbconf = array(
         'servers' => array(
-            0 => 'mysql:host=172.17.12.95;port=3306',
-            1 => 'mysql:host=172.17.12.95;port=3306',
+            0 => 'mysql:host=255.355.255.255;port=3306',
+            1 => 'mysql:host=255.355.255.255;port=3306',
         ),
         'encode' => 'utf8',
-        'jupiter_media' => array(
-            'user' => 'poseidon',
+        'media' => array(
+            'user' => 'nana',
             'passwd' => '123456',
-            'dbname' => 'db_jupiter_media',
+            'dbname' => 'media',
         ),
-        'jupiter_video' => array(
-            'user' => 'poseidon',
-            'passwd' => 'lfAPVoIsU+YI6U',
-            'dbname' => 'db_jupiter_video',
+        'video' => array(
+            'user' => 'nana',
+            'passwd' => '123456',
+            'dbname' => 'video',
         ),
     );
 }
